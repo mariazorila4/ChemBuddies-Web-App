@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChemBuddies: The Cute Periodic Table</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Cover/Intro Section -->
+    <div id="cover-intro">
+        <img id="logo-img" src="images/chem_buddies_logo.png" alt="ChemBuddies Logo">
+        <h1>ChemBuddies</h1>
+        <h2>The Cute Periodic Table</h2>
+        <button id="btn-start">Start Adventure!</button>
+        <p class="slogan">Making Chemistry Fun and Adorable!</p>
+        <p class="description">Discover the fascinating world of chemistry through our cute and interactive periodic table!</p>
+    </div>
+
+    <!-- Periodic Table Container (Initially Hidden) -->
+    <div id="table-container" style="display: none;">
+        <h1 class="title">The Periodic Table</h1>
+        <div id="periodic-table">
+            <!-- Periodic table will be dynamically generated here -->
+        </div>
+        
+        <!-- Element Details Modal (Initially Hidden) -->
+        <div id="details-modal" style="display: none;">
+            <div id="modal-content">
+                <span id="close-modal">&times;</span>
+                <img id="char-img" src="" alt="Element Character">
+                <h2 id="modal-name">Element Name</h2>
+                <p id="element-symbol">Symbol</p>
+                <p id="atomic-number">Atomic Number</p>
+                <p id="funny-desc">Funny Description</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
